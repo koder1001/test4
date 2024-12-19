@@ -1,0 +1,27 @@
+@media screen and (max-width:650px){
+   .block > img{
+    margin: 10px;
+    float:none;
+    width: 95%;
+   }
+   .block > p{
+padding: 10px;
+   }
+}
+@media screen and (max-width:500px){
+    .block > img{
+     margin: 10px;
+     max-width: 100%;
+    }
+    .block > p{
+    padding:5px;
+    }
+    .block{
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+    .block > h2{
+        text-align: center;
+    }
+
+ }
